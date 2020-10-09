@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1000px;
+}
+
+/* main {
+    display: flex;
+    flex-direction: ;
+} */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav img {
+    margin: 1px;
+}
+
+.backslash-break {
+    background-color: black;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url('../assets/list-bg.png');
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-bottom: 100px;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer button {
+    background-color: orangered;
+    opacity: 0.7;
+
+    color: white;
+}
+
+hr.logo-line-break {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+
+    margin: 0;
+    width: 100%;
+}
+hr.logo-line-break:after {
+    content: url('../assets/logo.png');
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+.copyright-info {
+    text-align: center;
+}
